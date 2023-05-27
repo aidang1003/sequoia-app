@@ -1,17 +1,18 @@
 from Backend.Postgres.DatabaseClasses import *
 from Backend.Postgres.PostgresFlaskConnection import PostgresFlaskConnectionClass
-from sqlalchemy import insert
+from sqlalchemy import insert, select
 import json
 
 
 class TestingConnectionClass:
     def __init__(self):
         self.postgresConnectionClass = PostgresFlaskConnectionClass()
-        self.public_identifier = None
+
+        self.selectReturn = None
 
     def __repr__(self):
         return f"""
-        public identifier >> {self.public_identifier}
+        return from tbl_linekdinProfile >> {self.selectReturn}
         """
     
     def createSession(self):
@@ -19,12 +20,21 @@ class TestingConnectionClass:
         return
 
     
-    def select(self):
-        pass
+    def testSelect(self):
+        # Create session object
+        self.postgresConnectionClass.startConnection()
+        session = self.postgresConnectionClass.getSession()
+
+        # Create select statement
+        stmnt = select(LinkedInProfile)
+        result = session.execute(stmnt)
+        self.selectReturn = result
+        session.close()
+        return result # Optional to instead return the result here
 
     def testInsert(self):
         # insert from the json test file
-        file = open('Backend/outputProxyCurl.json', 'r')
+        file = open('Backend/outputProxyCurlSimer.json', 'r')
         data = json.load(file)
         file.close()
 
@@ -56,5 +66,5 @@ class TestingConnectionClass:
 
 if __name__ =='__main__':
     testingObject = TestingConnectionClass()
-    testingObject.testInsert()
-    print("object >> ",testingObject)
+    testingObject.testSelect()
+    print(testingObject)
