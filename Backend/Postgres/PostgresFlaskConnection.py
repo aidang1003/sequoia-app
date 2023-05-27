@@ -57,4 +57,4 @@ class PostgresFlaskConnectionClass:
 
 
 if __name__ == '__main__':
-
+    connectionObject = PostgresFlaskConnectionClass()
