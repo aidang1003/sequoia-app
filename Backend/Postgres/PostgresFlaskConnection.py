@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine, Column, ForeignKey, Integer, String, DateTime
-# from test_DatabaseSetup import *  # un-comment this for testing
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+# from DatabaseSetup import *  # un-comment this for testing
 
 
 class PostgresFlaskConnectionClass:
