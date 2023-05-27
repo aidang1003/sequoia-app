@@ -3,10 +3,10 @@
 Make a class that takes in a URL as the argument and returns key things from a persons linkedin profile
 
 '''
-from bs4 import BeautifulSoup
-import lxml
+from bs4 import BeautifulSoup # remove after proxycurl implementation
+import lxml # remove after proxycurl implementation
 import requests
-import os
+from LinkedinProfileProxyCurl import LinkedinProfileProxyCurlClass
 
 class ScrapeLinkedinProfileClass:
     def __init__(self, linkedinUrl='https://www.google.com'):
@@ -15,9 +15,10 @@ class ScrapeLinkedinProfileClass:
 
 
     def __repr__(self):
-        return f"""URL to scrape >> {self.linkedinUrl}
-                html body >> {self.linkedinUrl}
-                """
+        return f"""
+        URL to scrape >> {self.linkedinUrl}
+        html body >> {self.linkedinUrl}
+        """
     
     def setLinkedinUrl(self, linkedinUrl):
         self.linkedinUrl = linkedinUrl
@@ -36,10 +37,23 @@ class ScrapeLinkedinProfileClass:
         with open(outputFile, 'w', encoding='utf-8') as file:
             file.write(soup.prettify())
 
-        return (f"HTML document {outputFile} saved to Backend folder.") # Print this statement to help with debugging
+        return (f"HTML document saved to {outputFile}") # Print this statement to help with debugging
     
+    def outputProxyLinkedinProfile(self, outputFile='outputProxyCurlSimer.json'):
+        # Set path to return to Backend folder
+        outputFile = 'Backend/'+ outputFile
+
+        # Send the request using proxy curl class
+        linkedinProfileResponseObject = LinkedinProfileProxyCurlClass()
+        response = linkedinProfileResponseObject.getLinkedinHTMLResponse()
+
+        # Return without trying to parse HTML to json
+        with open(outputFile, 'w', encoding='utf-8') as file:
+            file.write(response.text)
+
+        return (f"HTML document saved to {outputFile}") # Print this statement to help with debugging
 
 if __name__ == '__main__':
     scraperObject = ScrapeLinkedinProfileClass() # 'https://www.linkedin.com/in/aidan-gorny'
-    print(scraperObject.outputLinkedinProfile())
+    scraperObject.outputProxyLinkedinProfile()
     print(scraperObject)

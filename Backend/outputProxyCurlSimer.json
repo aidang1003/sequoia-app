@@ -1,0 +1,303 @@
+{
+  "public_identifier": "simerpaulsingh",
+  "profile_pic_url": null,
+  "background_cover_image_url": null,
+  "first_name": "Simer",
+  "last_name": "Singh",
+  "full_name": "Simer Singh",
+  "follower_count": null,
+  "occupation": "Data Scientist at West Monroe",
+  "headline": "People & Data Enthusiast",
+  "summary": null,
+  "country": "US",
+  "country_full_name": "United States of America",
+  "city": "Chicago",
+  "state": "Illinois",
+  "experiences": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 7,
+        "year": 2022
+      },
+      "ends_at": null,
+      "company": "West Monroe",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/westmonroe/",
+      "title": "Data Scientist",
+      "description": null,
+      "location": "Chicago, Illinois, United States",
+      "logo_url": "https://media.licdn.com/dms/image/C560BAQG5tQoWDsZcuw/company-logo_400_400/0/1656681835999?e=1693440000&v=beta&t=N6IDVHxT2SHk9wspfFsXIbE3GWmmf0d-jTvxUM_K_t8"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 6,
+        "year": 2021
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2021
+      },
+      "company": "West Monroe",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/westmonroe/",
+      "title": "Data Engineering & Analytics Intern",
+      "description": null,
+      "location": "Chicago, Illinois, United States",
+      "logo_url": "https://media.licdn.com/dms/image/C560BAQG5tQoWDsZcuw/company-logo_400_400/0/1656681835999?e=1693440000&v=beta&t=N6IDVHxT2SHk9wspfFsXIbE3GWmmf0d-jTvxUM_K_t8"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 7,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2021
+      },
+      "company": "The Illini Blueprint",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/the-illini-blueprint/",
+      "title": "Founder",
+      "description": null,
+      "location": null,
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQFG40Y_Pn-szw/company-logo_400_400/0/1596212109156?e=1693440000&v=beta&t=pJteBJyz9KvjrJejtCVkO6elGv2un2P6pGGjko4RSs8"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2020
+      },
+      "company": "Romulus Capital",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/romulus-capital/",
+      "title": "Campus Associate",
+      "description": null,
+      "location": "Boston",
+      "logo_url": "https://media.licdn.com/dms/image/C4D0BAQEibviIB-HjvQ/company-logo_400_400/0/1532707566447?e=1693440000&v=beta&t=pgk8KFeFYPfOi3ntZTLNtaaZsHgX_hKrOjFp9mzrxV0"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 12,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 12,
+        "year": 2020
+      },
+      "company": "Founders - Illinois Entrepreneurs",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/founders-illinois-entrepreneurs/",
+      "title": "Discovery Team Lead",
+      "description": null,
+      "location": null,
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQH1YA5jRhUN8g/company-logo_400_400/0/1519888643819?e=1693440000&v=beta&t=squkoytBQ9Sx0DvD55CZl7OBTGtH1u42bH_8yI3Gnp8"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 12,
+        "year": 2019
+      },
+      "company": "Founders - Illinois Entrepreneurs",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/founders-illinois-entrepreneurs/",
+      "title": "Microgrants Analyst",
+      "description": null,
+      "location": null,
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQH1YA5jRhUN8g/company-logo_400_400/0/1519888643819?e=1693440000&v=beta&t=squkoytBQ9Sx0DvD55CZl7OBTGtH1u42bH_8yI3Gnp8"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 10,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2020
+      },
+      "company": "Plug and Play Tech Center",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/plug-and-play-tech-center/",
+      "title": "Investments Analyst Intern",
+      "description": null,
+      "location": null,
+      "logo_url": "https://media.licdn.com/dms/image/C560BAQE1-lznT-O14g/company-logo_400_400/0/1677106057356?e=1693440000&v=beta&t=jdS-LOKipo5Nh3oYi0RhlfQKcElS3BwK43RBIzFl04c"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 6,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2019
+      },
+      "company": "project44",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/project-44/",
+      "title": "Carrier Operations and Strategy Intern",
+      "description": null,
+      "location": "Chicago, Illinois",
+      "logo_url": "https://media.licdn.com/dms/image/C560BAQGw0sC-2GdiyA/company-logo_400_400/0/1656681153027?e=1693440000&v=beta&t=AvfeAbRDhb8rG5O3BDAfZXq3X15tYuvA9_DdvD4ubaY"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2022
+      },
+      "field_of_study": "Econometrics and Quantitative Economics",
+      "degree_name": "Bachelor's degree",
+      "school": "University of Illinois Urbana-Champaign",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/0/1595014871850?e=1693440000&v=beta&t=dTpwUSxqqnDO1IkFs6kGGfyfgkUHOi6tJjokUlJJ0CM",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "field_of_study": null,
+      "degree_name": null,
+      "school": "Lake Zurich Senior High School",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    }
+  ],
+  "languages": ["English", "Spanish"],
+  "accomplishment_organisations": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2018
+      },
+      "ends_at": null,
+      "org_name": "Institute of Industrial and Systems Engineers",
+      "title": "Memeber",
+      "description": null
+    }
+  ],
+  "accomplishment_publications": [],
+  "accomplishment_honors_awards": [],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [],
+  "accomplishment_projects": [],
+  "accomplishment_test_scores": [],
+  "volunteer_work": [],
+  "certifications": [],
+  "connections": null,
+  "people_also_viewed": [
+    {
+      "link": "https://www.linkedin.com/in/qiana-sanders-39436356",
+      "name": "Qiana Sanders",
+      "summary": "Manager, Data Science & Analytics",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/shaan-amin-717b07192",
+      "name": "Shaan Amin",
+      "summary": "Engineer at Peoples Gas",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/shawn-v-193b8a196",
+      "name": "Shawn V.",
+      "summary": "Strategy | Analytics and CS | Finance and Economics",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/haydenvanermen",
+      "name": "Hayden VanErmen",
+      "summary": "Consultant at West Monroe",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/abdul-lawal-19ba81197",
+      "name": "Abdul Lawal",
+      "summary": "University of Illinois at Urbana-Champaign Alumni",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/dr-joseph-ahn-0611b233",
+      "name": "Dr. Joseph Ahn",
+      "summary": "AI | ENTREPENEURSHIP | STRATEGY",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/zehra-ali-255b57100",
+      "name": "Zehra Ali",
+      "summary": "Senior Consultant at West Monroe in IT Strategy and Business Process Optimization",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/sanjit-narendra-144918b2",
+      "name": "Sanjit Narendra",
+      "summary": "Senior Consultant at West Monroe",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/walidkhori",
+      "name": "Walid Khori",
+      "summary": "Software Engineer",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/luisencova",
+      "name": "Luis Enrique Cova",
+      "summary": "Rail Maintenance Analyst at ExxonMobil",
+      "location": null
+    }
+  ],
+  "recommendations": [
+    "Mathew Canada\n\n\n\nSimer worked for me as a summer intern in 2019.  I was immediately impressed by Simer’s intellectual curiosity of not just his immediate team, but of the entire organization.  He constantly analyzed situations to determine how they fit into the larger strategy/vision of the company.   Simer approaches new challenges through the lens of seeking to understand and also challenge the status quo.  On several occasions he brought innovative ideas to discuss on ways to improve the business and expand the way we service our customers.  Simer’s critical thinking and problem solving skills are well beyond his years of experience.  Everyday he brought a positive attitude and willingness to roll up his sleeves and help with anything needed.  I am excited to have had the opportunity to get to know Simer and know he is on a path to do great things!  "
+  ],
+  "activities": [],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": [],
+  "phone_numbers": [],
+  "social_networking_services": [],
+  "skills": ["Leadership"],
+  "inferred_salary": null,
+  "gender": null,
+  "birth_date": null,
+  "industry": null,
+  "extra": null,
+  "interests": [],
+  "personal_emails": [],
+  "personal_numbers": []
+}

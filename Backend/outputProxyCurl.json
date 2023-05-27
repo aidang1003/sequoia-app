@@ -1,0 +1,321 @@
+{
+  "public_identifier": "aidan-gorny",
+  "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/aidan-gorny/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ef06093e3d709d832e224712ae443de3db5de90e99138a3b6f7db33328118f3a",
+  "background_cover_image_url": null,
+  "first_name": "Aidan",
+  "last_name": "Gorny",
+  "full_name": "Aidan Gorny",
+  "follower_count": null,
+  "occupation": "Central Tech Team at Fast Enterprises, LLC",
+  "headline": "Central Tech Team at Fast Enterprises",
+  "summary": "With a degree in Information Systems from the University of Iowa, my skillset is well-suited for a wide range of tech roles. My experience in network administration, resolving application issues, and overseeing rollouts provides a great technical foundation for overcoming obstacles. I am constantly seeking new challenges and opportunities to apply my expertise.",
+  "country": "US",
+  "country_full_name": "United States of America",
+  "city": "Denver",
+  "state": "Colorado",
+  "experiences": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 7,
+        "year": 2022
+      },
+      "ends_at": null,
+      "company": "Fast Enterprises, LLC",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/fast-enterprises/",
+      "title": "Central Tech Team",
+      "description": null,
+      "location": "Centennial, Colorado, United States",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/fast-enterprises/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8837ccfe1a6c9725b967c163021c3b41a700180adc077117bf2f0bb32d0abe12"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 6,
+        "year": 2021
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2021
+      },
+      "company": "Modern Woodmen of America",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/modern-woodmen-of-america/",
+      "title": "Data Analyst",
+      "description": "Automating reports in Power BI was my main role in this position. To accomplish this task SQL, Excel, and Teams were additional tools that I used. A secondary role of mine was to promote the Power BI community of practice, an internal work group tasked with promoting Power BI usage within the company. From this experience I learned how to market a new technology within an organization.",
+      "location": "Rock Island, Illinois, United States",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/modern-woodmen-of-america/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=87e19b8645436244e7d721c3bed96adc24eda2b6d51a44efc55303d72322f8bb"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2021
+      },
+      "company": "University of Iowa Health Care",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/university-of-iowa-hospitals-and-clinics/",
+      "title": "Student Clerk",
+      "description": "In this student role I directed patient's calls' to the appropriate medical staff, screened patients for COVID-19, and transported patients from appointments.",
+      "location": "Iowa City, Iowa, United States",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/university-of-iowa-hospitals-and-clinics/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ed7f0bfe7fabe1b14b2267e700e32234823552b08687c4505f6dd502a2c7ffe5"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 3,
+        "year": 2017
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 3,
+        "year": 2021
+      },
+      "company": "Foglia YMCA",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/irving-park-ymca/",
+      "title": "Youth Sports Instructor",
+      "description": "Coached sports to youth players to develop their skills, character, and interest in an active lifestyle.",
+      "location": "Lake Zurich, Illinois",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/irving-park-ymca/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6c1ccf36e2ac35780b7e591c8bc0ef6c9b85132e52403abd78b2fffca6755474"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2016
+      },
+      "company": "Biltmore Country Club",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/biltmore-country-club/",
+      "title": "Caddie",
+      "description": "Developed a client base of over 40 members and achieved the highest caddie rank, enabling many smooth, enjoyable golf rounds for members of the Biltmore country club.",
+      "location": "North Barrington, Illinois",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/biltmore-country-club/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230527%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230527T032820Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7e304d31dc5dd7e94cc8b5dc6afd37c66dc24ed4dafaabd0350fb495917a02cb"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2022
+      },
+      "field_of_study": null,
+      "degree_name": "Business Analytics and Information Systems",
+      "school": "University of Iowa",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": "https://media.licdn.com/dms/image/C4E0BAQEZmXdCae6kyw/company-logo_400_400/0/1590501132499?e=1693440000&v=beta&t=Frxml9JrwJrxlX5fZ-qjXbPbbVJDK_RPVvUHGj6nWzg",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "field_of_study": null,
+      "degree_name": "High School Diploma",
+      "school": "Lake Zurich High School",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    }
+  ],
+  "languages": ["Spanish"],
+  "accomplishment_organisations": [],
+  "accomplishment_publications": [],
+  "accomplishment_honors_awards": [],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [
+    {
+      "name": "Application Development",
+      "number": "BAIS:3120"
+    },
+    {
+      "name": "Business Analytics",
+      "number": "MSCI:2800"
+    },
+    {
+      "name": "Cloud Computing",
+      "number": "BAIS:3400"
+    },
+    {
+      "name": "Computer Sci II: Data Structures",
+      "number": "CS:2230"
+    },
+    {
+      "name": "Entrepreneurship Business Consulting",
+      "number": "ENTR:4200"
+    },
+    {
+      "name": "Software Design",
+      "number": "BAIS:3300"
+    }
+  ],
+  "accomplishment_projects": [],
+  "accomplishment_test_scores": [],
+  "volunteer_work": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2016
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2018
+      },
+      "title": "Fundraising Coordinator",
+      "cause": "HUMANITARIAN_RELIEF",
+      "company": "Ball Gives Life",
+      "company_linkedin_profile_url": null,
+      "description": "Setup and ran 3 basketball tournaments a year that donated proceeds to charities in the Chicago area.",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2019
+      },
+      "title": "Event Coordinator",
+      "cause": "ECONOMIC_EMPOWERMENT",
+      "company": "100 Women Who Care Milton, MA Chapter",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/100-women-who-care-milton-ma-chapter/",
+      "description": "Coordinated philanthropy donations and activities for one of the quarterly events. This experience made a difference in the community because nearly $3000 were donated to local non-profit businesses.",
+      "logo_url": "https://media.licdn.com/dms/image/C560BAQHNyvq61ofCZA/company-logo_400_400/0/1548194200260?e=1693440000&v=beta&t=Y3Idm9UdsXk6gEQ1xJAdugLHIBE4j6nlP1Ot-qXpTZ8"
+    }
+  ],
+  "certifications": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2022
+      },
+      "ends_at": null,
+      "name": "Creating a Meeting Agenda",
+      "license_number": null,
+      "display_source": "linkedin.com",
+      "authority": "LinkedIn",
+      "url": "https://www.linkedin.com/learning/certificates/d23a63ebb294d60948577404aea6081548aee9c32bf7df06b84be9d44a37098c?trk=backfilled_certificate"
+    }
+  ],
+  "connections": null,
+  "people_also_viewed": [
+    {
+      "link": "https://www.linkedin.com/in/sami-whelan-linares-b189801b6",
+      "name": "Sami Whelan-Linares",
+      "summary": "Student at University of Iowa",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/eli-steuer-50a9491b5",
+      "name": "Eli Steuer",
+      "summary": "Student at Purdue University",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/reagan-etter-b90aa4197",
+      "name": "Reagan Etter",
+      "summary": "Criminology Major | University of Iowa | UIHC Security Officer",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/mitchell-dyer-830622194",
+      "name": "Mitchell Dyer",
+      "summary": "Student at Western Michigan University",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/jacob-lantz-bb8210a5",
+      "name": "Jacob Lantz",
+      "summary": "Implementation Consultant at FAST Enterprises",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/william-gorman-ba6768174",
+      "name": "William Gorman",
+      "summary": "Student at University of Wyoming College of Engineering and Applied Science",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/william-marietti-b471ab170",
+      "name": "William Marietti",
+      "summary": "Leveraged Finance Analyst at Fifth Third Bank",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/alex-quezada-magdaleno-0033b7210",
+      "name": "Alex Quezada Magdaleno",
+      "summary": "Young Enthusiastic computer programmer | Always looking for more knowledge to better developed my coding skills",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/monica-hoover-4b5b574b",
+      "name": "Monica Hoover",
+      "summary": "Insurance agent at Shelter Insurance Companies",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/anthony-gallegos-830b81173",
+      "name": "Anthony Gallegos",
+      "summary": "Venture Debt & Growth Capital | Innovation Banking Analyst at CIBC",
+      "location": null
+    }
+  ],
+  "recommendations": [],
+  "activities": [],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": [],
+  "phone_numbers": [],
+  "social_networking_services": [],
+  "skills": [
+    "Data Analytics",
+    "Python (Programming Language)",
+    "Information Systems",
+    "Microsoft Excel",
+    "Active Learning",
+    "ASP.NET",
+    "Microsoft Power BI",
+    "Leading Meetings",
+    "Meeting Planning"
+  ],
+  "inferred_salary": null,
+  "gender": null,
+  "birth_date": null,
+  "industry": null,
+  "extra": null,
+  "interests": [],
+  "personal_emails": [],
+  "personal_numbers": []
+}
