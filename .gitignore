@@ -3,3 +3,6 @@ venv/
 
 # ignore html output
 Backend/*.html
+
+# ignore
+__pycache__/
