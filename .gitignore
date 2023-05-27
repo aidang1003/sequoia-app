@@ -1,2 +1,5 @@
 # ignore virtual environment
 venv/
+
+# ignore html output
+Backend/*.html
