@@ -63,7 +63,7 @@ export default function RecruiterOptions() {
     <div>
       <div className="prompts row">
         <div>
-          <LinkedUrl setURL={handleURLChange} />
+          <LinkedUrl setURL={setURL} />
         </div>
       </div>
       <div className="prompts row">

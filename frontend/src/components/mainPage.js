@@ -6,9 +6,6 @@ export default function MainPage() {
     <div>
       <div className="container">
         <div>
-          <LinkedinURL />
-        </div>
-        <div>
           <RecruiterOptions />
         </div>
       </div>
