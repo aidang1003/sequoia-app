@@ -1,6 +1,6 @@
 from Backend.Postgres.DatabaseClasses import *
 from Backend.Postgres.PostgresFlaskConnection import PostgresFlaskConnectionClass
-
+from requests import request # is this what we need?
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -28,8 +28,19 @@ def recruiter():
                 print(
                 f'job_position: {job_position}, location: {location}, job_description: {job_description}, domain: {domain}')
             item = request.get_json()
-            filterObject = FilterClass(
-                item, job_position, location, job_description, domain, prompt)
-            file = filterObject.filter()
+            # filterObject = FilterClass(
+            #     item, job_position, location, job_description, domain, prompt)
+            # file = filterObject.filter()
+
+@app.route('/test', methods=['POST'])
+def test():
+    if request.method == 'POST':
+        result = request.json.get('testlinkedinUrl')
+        print("URL >> ", result)
+    
+    return
+             
+
+# Run the app.py            
 if __name__ == "__main__":
     app.run()

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import MainPage from "./components/mainPage.js";
 import Login from "./components/loginPage.js";
 import Header from "./components/header.js";
+import Test from "./components/test.js";
 
 const isAuthenticated = true;
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
           <Routes>
             <Route path="login" element={<Login />} />
             {isAuthenticated ? (
-              <Route path="/" element={<MainPage />} />
+              <Route path="/" element={<Test />} /> //What's actually calling the front end
             ) : (
               <Route path="/" element={<Navigate to="/login" />} />
             )}

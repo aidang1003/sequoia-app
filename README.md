@@ -20,6 +20,14 @@
 
         `pip install -r requirements.txt`
 
+5.  Change direcory to the frontend folder to install the js dependencies
+
+        `cd .\frontend`
+
+6.  Install the js dependencies
+
+        `npm install`
+
 ## Best practices to maintain dependencies
 
 - After adding a new python dependency run the freeze script at the .\ProfileUserEngine level to update the requirements.txt
@@ -31,6 +39,8 @@
   `C:Users\user\Sequoia\ProfileUserEngine> python .\backend\app.py`
 
 ## Run the repo
+
+    npm start
 
 ## Test the repo
 
