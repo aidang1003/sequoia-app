@@ -1,0 +1,93 @@
+import React, { useState } from "react";
+import LinkedUrl from "./urlSubmit.js";
+import Location from "./location.js";
+import JobPositions from "./jobPositions.js";
+import JobDescription from "./jobDescription";
+import Domain from "./domain.js";
+import Prompt from "./prompt.js";
+
+export default function RecruiterOptions() {
+  const [linkedinUrl, setURL] = useState("");
+  const [jobPosition, setJobPosition] = useState("");
+  const [location, setLocation] = useState("");
+  const [domain, setDomain] = useState("");
+  const [jobDescription, setJobDescription] = useState("");
+  const [prompt, setPrompt] = useState("");
+
+  const handleJobPositionChange = (value) => {
+    setJobPosition(value);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    if (!linkedinUrl || !jobPosition || !jobDescription) {
+      alert(
+        "Please fill out both the URL, Job Position and Job Description fields"
+      );
+      return;
+    }
+    try {
+      const requestBody = {
+        jobPosition,
+      };
+      if (linkedinUrl) {
+        requestBody.linkedinUrl = linkedinUrl;
+      }
+      if (location) {
+        requestBody.location = location;
+      }
+      if (jobDescription) {
+        requestBody.jobDescription = jobDescription;
+      }
+      if (domain) {
+        requestBody.domain = domain;
+      }
+      if (prompt) {
+        requestBody.prompt = prompt;
+      }
+      const response = await fetch("http://localhost:5000/recruiter", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Request-ID": "User-Input",
+        },
+        body: JSON.stringify(requestBody),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  return (
+    <div>
+      <div className="prompts row">
+        <div>
+          <LinkedUrl setURL={setURL} />
+        </div>
+      </div>
+      <div className="prompts row">
+        <div>
+          <JobPositions setJobPosition={handleJobPositionChange} />
+        </div>
+        <div className="container2">
+          <Location setLocation={setLocation} />
+        </div>
+        <div>
+          <Domain setDomain={setDomain} />
+        </div>
+      </div>
+      <div className="prompts">
+        <JobDescription setJobDescription={setJobDescription} />
+      </div>
+      <div className="prompts">
+        <Prompt setPrompt={setPrompt} />
+      </div>
+      <div className="button2">
+        <button id="filterButton" className="button" onClick={handleSubmit}>
+          Submit
+        </button>
+      </div>
+    </div>
+  );
+}
