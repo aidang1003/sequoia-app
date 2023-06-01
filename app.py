@@ -1,14 +1,13 @@
 from Backend.Postgres.DatabaseClasses import *
 from Backend.Postgres.PostgresFlaskConnection import PostgresFlaskConnectionClass
-from requests import request # is this what we need?
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 # Defining the home page of our site
 @app.route("/")  # this sets the route to this page
 def home():
-	return render_template('index.html', pageTitle='Homepage')  # some basic inline html
+	return "hi"
 
 @app.route('/recruiter', methods=['GET', 'POST'])
 def recruiter():
@@ -35,12 +34,11 @@ def recruiter():
 @app.route('/test', methods=['POST'])
 def test():
     if request.method == 'POST':
-        result = request.json.get('testlinkedinUrl')
+        result = request.form['testlinkedinUrl']
         print("URL >> ", result)
     
-    return
-             
+        return result        
 
 # Run the app.py            
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

@@ -2,7 +2,7 @@ import React from "react";
 export default function LinkedinUrl() {
   return (
     <div className="container">
-      <form action="https://localhost:5000/test" method="POST">
+      <form action="http://localhost:5000/test" method="POST">
         <div className="textTitle">URL Submit</div>
         <div className="container">
           <input
@@ -11,7 +11,9 @@ export default function LinkedinUrl() {
             name="testlinkedinUrl"
             className="textbox textbox1"
           ></input>
-          <button type="submit">Enter</button>
+          <div className="container">
+            <button className="button">Submit</button>
+          </div>
         </div>
       </form>
     </div>
